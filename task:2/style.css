@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(87, 246, 87);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: rgb(87, 246, 87);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 45%;
+}
+
+.bio {
+    text-align: center;
+    max-width: 600px;
+    margin-left: 28%;
+}
+
+#skills {
+    margin-top: 50px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px;
+    background-color: rgb(46, 212, 46);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(87, 246, 87);
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    bottom: 0;
+    width: 100%;
+}
+
+#resume button {
+    padding: 16px;
+    border-radius: 20%;
+    width: 70px;
+    background-color:rgb(87, 246, 87);
+    border-color: rgb(87, 246, 87) transparent;
+    box-shadow: 5px 5px 10px rgb(46, 212, 46)
+}
+
+#resume img {
+    justify-content: center;
+    align-items: center;
+    width:30px;
+}
+
+#resume button:hover {
+    cursor: pointer;
+    transition: 0.1ms;
+    background-color: rgb(46, 212, 46);
+}
+
+.project img {
+    height: 1000px;
+    width: 500px;
+    align-items: left;
+}
